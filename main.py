@@ -1,5 +1,5 @@
-# 从键盘输入一行字符
-text = input("请输入一行字符：")
+# 从键盘输入一行字符，不需要提示信息
+text = input()
 
 # 初始化计数器
 letters = 0
@@ -18,7 +18,7 @@ for char in text:
     else:
         others += 1
 
-# 按照要求格式输出结果
+# 按照要求格式输出结果，注意空格和标点
 print(f"英文字符: {letters}")
 print(f"数字: {digits}")
 print(f"空格: {spaces}")
